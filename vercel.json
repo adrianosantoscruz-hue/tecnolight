@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm --filter @workspace/tecnolight run build",
+  "outputDirectory": "artifacts/tecnolight/dist/public",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

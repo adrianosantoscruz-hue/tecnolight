@@ -1,5 +1,5 @@
 import React from "react";
-import { Zap, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Zap, MessageCircle } from "lucide-react";
 
 export function Footer() {
   return (
@@ -13,12 +13,9 @@ export function Footer() {
             <p className="text-white/60 max-w-sm mb-8 leading-relaxed">
               Soluções elétricas corporativas e industriais. 30 anos iluminando o futuro com segurança, agilidade e confiança. Energia que conecta.
             </p>
-            <div className="flex gap-4">
-              {[Facebook, Instagram, Linkedin].map((Icon, i) => (
-                <a key={i} href="#" className="w-12 h-12 rounded-full bg-card border border-white/10 flex items-center justify-center text-white/60 hover:text-primary hover:border-primary hover:-translate-y-1 transition-all">
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
+            <div className="flex items-center gap-3 text-white/50 text-sm">
+              <MessageCircle className="w-4 h-4 text-primary" />
+              <a href="https://wa.me/5521972443666" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">(21) 97244-3666</a>
             </div>
           </div>
 

@@ -55,7 +55,7 @@ export function Navbar() {
         <div className="hidden lg:block">
           <a href="#contact">
             <Button className="font-heading text-lg tracking-wider gap-2">
-              <Phone className="w-4 h-4" /> (00) 0000-0000
+              <Phone className="w-4 h-4" /> (21) 97244-3666
             </Button>
           </a>
         </div>
@@ -90,7 +90,7 @@ export function Navbar() {
             ))}
             <a href="#contact" onClick={() => setMobileMenuOpen(false)}>
               <Button className="font-heading text-xl mt-4">
-                <Phone className="w-5 h-5 mr-2" /> (00) 0000-0000
+                <Phone className="w-5 h-5 mr-2" /> (21) 97244-3666
               </Button>
             </a>
           </motion.div>

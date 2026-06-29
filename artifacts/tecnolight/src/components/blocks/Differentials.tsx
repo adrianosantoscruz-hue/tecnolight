@@ -56,13 +56,8 @@ export function Differentials() {
             className="relative"
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-2xl blur-2xl"></div>
-            <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl p-2 bg-card">
-              <img src={brandImage} alt="Tecnolight Brand Identity" className="rounded-xl w-full object-cover" />
-            </div>
-            
-            <div className="absolute -bottom-8 -left-8 bg-primary text-primary-foreground p-6 rounded-2xl shadow-xl max-w-[200px] border-4 border-background hidden md:block">
-              <div className="text-5xl font-heading font-bold mb-1">30+</div>
-              <div className="text-sm font-bold uppercase tracking-wider leading-tight">Anos de Liderança em Energia</div>
+            <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+              <img src={brandImage} alt="Tecnolight Brand Identity" className="w-full h-full object-cover" />
             </div>
           </motion.div>
         </div>

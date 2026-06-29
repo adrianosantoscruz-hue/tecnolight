@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Shield, CheckCircle, Zap, Clock, Users, HardHat } from "lucide-react";
-import brandImage from "@assets/ChatGPT_Image_29_de_jun._de_2026,_08_32_25_1782733087032.png";
+import brandImage from "@/assets/brand-image.png";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },

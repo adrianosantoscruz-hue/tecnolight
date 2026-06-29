@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Tecnolight"
+version = "1.0.0"
+id = "artifacts/tecnolight"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22377
+
+[services.development]
+run = "pnpm --filter @workspace/tecnolight run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/tecnolight", "run", "build" ]
+publicDir = "artifacts/tecnolight/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22377"
+BASE_PATH = "/"

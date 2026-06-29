@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "7pO_OyztHNUQXH6HJw1MT"
+uri = "file://artifacts/tecnolight/src/assets/hero-bg.png"
+type = "image"
+title = "Hero background electrical industrial"
+
+[[generated]]
+id = "6trdDGjrZZ6PhDe5qmOTR"
+uri = "file://artifacts/tecnolight/src/assets/service-installation.png"
+type = "image"
+title = "Electrical installation service"
+
+[[generated]]
+id = "HXtU0-nGHMdYjPtCPeICH"
+uri = "file://artifacts/tecnolight/src/assets/service-commerce.png"
+type = "image"
+title = "Electrical commerce products"
+
+[[generated]]
+id = "iOuwZNbu3cjRRaL66jVnq"
+uri = "file://artifacts/tecnolight/src/assets/cta-bg.png"
+type = "image"
+title = "Electrical industrial abstract background"
+
+[[generated]]
+id = "wOidLhE7sR8k-MID7Mexi"
+uri = "file://artifacts/tecnolight/src/assets/project-1.png"
+type = "image"
+title = "Industrial lighting project"
+
+[[generated]]
+id = "AJpGa7L1MDXXrNFFkwORh"
+uri = "file://artifacts/tecnolight/src/assets/project-2.png"
+type = "image"
+title = "Corporate electrical panel"
+
+[[generated]]
+id = "jsjt5fzIvruJjBmSRGtWu"
+uri = "file://artifacts/tecnolight/src/assets/project-3.png"
+type = "image"
+title = "Substation installation"
